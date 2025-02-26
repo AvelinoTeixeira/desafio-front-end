@@ -1,0 +1,76 @@
+{
+    "employees": [
+      {
+        "id": 1,
+        "name": "João",
+        "job": "Back-end",
+        "admission_date": "2019-12-02T00:00:00.000Z",
+        "phone": "5551234567890",
+        "image": " /Joao.png"
+      },
+      {
+        "id": 2,
+        "name": "Roberto",
+        "job": "Front-end",
+        "admission_date": "2020-03-12T00:00:00.000Z",
+        "phone": "5550321654789",
+        "image": "/Roberto.png"
+      },
+      {
+        "id": 3,
+        "name": "Maria",
+        "job": "Front-end",
+        "admission_date": "2020-03-15T00:00:00.000Z",
+        "phone": "5557894561230",
+        "image": "/Maria.png"
+      },
+      {
+        "id": 4,
+        "name": "Cleber",
+        "job": "Back-end",
+        "admission_date": "2020-06-01T00:00:00.000Z",
+        "phone": "5557410258963",
+        "image": "/Cleber.png"
+      },
+      {
+        "id": 5,
+        "name": "Giovana",
+        "job": "Designer",
+        "admission_date": "2020-06-20T00:00:00.000Z",
+        "phone": "5553698520147",
+        "image": "/Giovana.png"
+      },
+      {
+        "id": 6,
+        "name": "Mario",
+        "job": "Front-end",
+        "admission_date": "2020-10-01T00:00:00.000Z",
+        "phone": "5551234567890",
+        "image": "/Mario.png"
+      },
+      {
+        "id": 7,
+        "name": "Gabriel",
+        "job": "Back-end",
+        "admission_date": "2021-01-01T00:00:00.000Z",
+        "phone": "5551234567890",
+        "image": "/Gabriel.png"
+      },
+      {
+        "id": 8,
+        "name": "Carla",
+        "job": "Back-end",
+        "admission_date": "2021-03-01T00:00:00.000Z",
+        "phone": "5551234567890",
+        "image": "/Carla.png"
+      },
+      {
+        "id": 10,
+        "name": "Fernanda",
+        "job": "Front-end",
+        "admission_date": "2021-05-01T00:00:00.000Z",
+        "phone": "5551234567890",
+        "image": "/Fernanda.png"
+      }
+    ]
+  }
