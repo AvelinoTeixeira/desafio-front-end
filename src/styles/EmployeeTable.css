@@ -1,8 +1,17 @@
 /* Estilos Gerais */
 .employee-container {
-    width: 90%;
+    max-width: 1232px;
     margin: 20px auto;
 }
+
+.employee-title {
+    margin: 20px 0 0 0; 
+}
+
+  .employee-container {
+    padding-left: calc(5px + 1vw); 
+    }
+    
 
 .header-content {
     display: flex;

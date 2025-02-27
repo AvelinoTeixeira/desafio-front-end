@@ -11,7 +11,6 @@ Este projeto é uma tabela de funcionários responsiva desenvolvida como parte d
 * **Alinhamento Lateral Unificado:** A logo, a barra de pesquisa e a tabela estão sempre alinhados verticalmente na lateral esquerda da tela, garantindo uma interface limpa e organizada.
 * **Largura Máxima Controlada:** O conteúdo principal possui uma largura máxima definida, assegurando que o layout permaneça equilibrado em telas grandes.
 
-
 ## Tecnologias
 
 * **React:** Biblioteca JavaScript para construção de interfaces de usuário.
@@ -20,9 +19,10 @@ Este projeto é uma tabela de funcionários responsiva desenvolvida como parte d
 
 ## Instalação
 
-1.  Baixe o repositório: `git clone https://github.com/AvelinoTeixeira/desafio-front-end.git`
-2.  Executar: json-server --watch db.json
-3.  Inicie o servidor de desenvolvimento: `npm start`
+1.  Clone o repositório: `git clone https://github.com/AvelinoTeixeira/desafio-front-end.git`
+2.  Execute o servidor JSON: `json-server --watch db.json` (em um terminal separado)
+3.  Instale as dependências do projeto: `npm install`
+4.  Inicie o servidor de desenvolvimento do React: `npm start`
 
 ## Uso
 
