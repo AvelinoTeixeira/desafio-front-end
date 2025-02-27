@@ -15,9 +15,9 @@
 .employee-table {
   width: 100%;
   border-collapse: collapse;
-  border-radius: 10px; /* Arredonda os cantos da tabela */
-  overflow: hidden; /* Esconde as bordas que ultrapassam o elemento */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra na tabela */
+  border-radius: 10px; 
+  overflow: hidden; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .employee-table th,

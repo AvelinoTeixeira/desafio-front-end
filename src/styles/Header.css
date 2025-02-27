@@ -1,68 +1,43 @@
 /* Estilos do Header */
 .header {
-    background-color: white; 
-    padding: 20px ; 
-    text-align: left; 
-    display: flex;
-    justify-content: flex-start;
-    align-items: center; 
-    padding-left: calc(1px + 1vw);
+  background-color: white; 
+  padding: 20px ; 
+  text-align: left; 
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; 
+  padding-left: calc(1px + 1vw);
 }
-  
 
-  
 
 .logo {
-  width: 100px;
-
+  margin: 0px;
+  width: 100px; 
+  text-align: left; 
 }
 
-.app-container {
-  padding-left: calc(5px + 2vw); 
+
+
+
+
+
+.employee-container {
+padding-left: calc(5px + 2vw); 
 }
 
- 
-  
-  .desktop-logo {
-    width: 200px; 
-    display: none;
-  }
-  
-  .mobile-logo {
-    width: 120px; 
-  }
 
-  .app-container {
-    display: flex;
-  }
-  
-  .left-sidebar {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
-  }
-  
-  .employee-title {
-    margin: 20px 0 0 0; 
-  }
-  
-  .content {
-    flex-grow: 1;
-  }
-  
 
-  
-  /* Responsividade */
-  @media (min-width: 768px) {
-    .desktop-logo {
-      display: block; 
-    }
-    .mobile-logo {
-      display: none; 
-    }
-  }
+.desktop-logo {
+  width: 200px; 
+  display: none;
+}
 
-  
-  
-  
+.mobile-logo {
+  width: 120px; 
+}
+
+
+.employee-title {
+  margin: 20px 0 0 0; 
+}
+
