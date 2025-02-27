@@ -1,0 +1,230 @@
+.mobile-only {
+    display: none;
+}
+
+@media (min-width: 769px) {
+    .search-container {
+      max-width: 310px; 
+    }
+  }
+
+@media (max-width: 768px) {
+
+    .employee-table {
+        display: block;
+        width: 100%;
+        margin: 0;
+        border: none;
+        box-shadow: none;
+    }
+
+    .employee-table thead {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #0500FF;
+        color: white;
+    }
+
+    .employee-table th {
+        border: none;
+        padding: 0;
+        font-weight: 500;
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+       
+    }
+
+    .employee-table tbody {
+        display: block;
+        border: none;
+    }
+
+    .employee-table tr {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .employee-table td {
+        border: none;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .table-image {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .accordion-icon {
+        color: #0500FF;
+        font-size: 1.2em;
+    }
+
+    .mobile-only {
+        display: block;
+    }
+
+    .employee-table th:nth-child(3),
+    .employee-table td:nth-child(3) {
+        width: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .employee-container {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .employee-title {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .search-container {
+        margin-left: -8px;
+        width: 100%; 
+        box-sizing: border-box;
+    }
+
+    .search-input {
+        width: 100%;
+        padding-right: 60px;
+        box-sizing: border-box;
+    }
+
+    .search-icon {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 18px;
+        color: #999;
+        pointer-events: none;
+    }
+
+    .accordion-icon {
+        color: #0500FF;
+    }
+
+    .employee-table {
+        border-radius: 10px 10px 0px 0px;
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+    }
+
+    .employee-table th:nth-child(n+3),
+    .employee-table td:nth-child(n+3) {
+        display: none;
+    }
+
+    .employee-table tbody {
+        display: none;
+    }
+
+    .employee-table th {
+        padding: 10px;
+    }
+
+    .nome-Edit {
+        margin-left: 45px;
+    }
+
+    .employee-name {
+        padding-left: 60px;
+    }
+
+    .accordion-container {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+
+    .accordion {
+        border-radius: 0px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .accordion-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        cursor: pointer;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .accordion-body {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        padding: 0 10px;
+        opacity: 0;
+        box-sizing: border-box;
+    }
+
+    .accordion-body.open {
+        max-height: 500px;
+        padding: 10px;
+        opacity: 1;
+    }
+
+    .info-item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 5px;
+    }
+
+    .info-item span {
+        margin-top: 16px;
+        font-weight: bold;
+        margin-right: 5px;
+        font-size: 16px;
+        width: 200px;
+        text-align: left;
+    }
+
+    .info-item p {
+        flex-grow: 1;
+        text-align: left;
+    }
+}
+
+
+
+/* Estilos para telas maiores (desktop) */
+@media (min-width: 769px) {
+    .accordion-container {
+        display: none;
+    }
+
+    .employee-table {
+        display: table;
+        width: 100%;
+    }
+
+    .employee-table th,
+    .employee-table td {
+        display: table-cell;
+    }
+}

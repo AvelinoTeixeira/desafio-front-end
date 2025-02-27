@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+    .desktop-table {
+      display: none;
+    }
+  }
+
+  
+  .mobile-table {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .employee-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .employee-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+    background: #f8f9fa;
+  }
+  
+  .employee-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .employee-name {
+    flex-grow: 1;
+    margin-left: 10px;
+    font-weight: 600;
+    font-family: "Roboto", Helvetica, sans-serif;
+  }
+  
+  .toggle-button {
+    border: none;
+    background: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .employee-details {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    font-family: "Roboto", Helvetica, sans-serif;
+  }
+  

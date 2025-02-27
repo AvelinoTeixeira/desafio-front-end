@@ -1,0 +1,27 @@
+body{
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 20px;
+  font-weight: 500; /* Medium */
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 500; /* Medium */
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 400; /* Regular */
+}
+
+.container { /* Ou o seletor específico do seu tema */
+  padding-left: 20px;
+}
+
+
+

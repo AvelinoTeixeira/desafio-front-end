@@ -1,0 +1,113 @@
+/* Estilos Gerais */
+.employee-container {
+  width: 90%; /* Largura do container principal */
+  margin: 20px auto; /* Centraliza o container */
+}
+
+.employee-img {
+  width: 4px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Estilos para a tabela (Desktop) */
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px; /* Arredonda os cantos da tabela */
+  overflow: hidden; /* Esconde as bordas que ultrapassam o elemento */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra na tabela */
+}
+
+.employee-table th,
+.employee-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px; 
+}
+
+.employee-table th {
+  background-color: #0500FF; 
+  color: white; 
+  font-weight: 500;
+}
+
+.table-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+/* Estilos para o accordion (Mobile) */
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px; 
+}
+
+.accordion {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.employee-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.employee-name {
+  font-weight: 500;
+}
+
+.accordion-icon {
+  transition: transform 0.3s ease;
+}
+
+.accordion-header.open .accordion-icon {
+  transform: rotate(180deg);
+}
+
+.accordion-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  padding: 0 16px;
+  background-color: #f9f9f9;
+}
+
+.accordion-body.open {
+  max-height: 300px; 
+  padding: 16px;
+}
+
+
+
+
+/* Media query para dispositivos móveis */
+@media (max-width: 768px) {
+  .employee-table {
+    display: none ;
+  } 
+}
