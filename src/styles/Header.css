@@ -1,13 +1,13 @@
 header {
   background-color: white;
-  margin: 0; /* Remove margens do header */
-  padding: 0; /* Remove paddings do header */
+  margin: 0; 
+  padding: 0; 
 }
 
 .interface {
   max-width: 1232px;
-  margin: 0 auto; /* Mantém a centralização horizontal */
-  padding: 20px 0; /* Mantém o padding vertical */
+  margin: 0 auto; 
+  padding: 20px 0; 
 }
 
 .employee-title {
